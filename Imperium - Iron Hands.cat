@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5b3d-59c0-a550-452a" name="Imperium - Adeptus Astartes - Iron Hands" revision="54" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="234" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5b3d-59c0-a550-452a" name="Imperium - Adeptus Astartes - Iron Hands" revision="55" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="235" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e1a1-c276-086c-8bf2" name="Iron Father Feirros" hidden="false" collective="false" import="true" type="model">
       <modifiers>
@@ -1326,10 +1326,12 @@
         <categoryLink id="1f73-4cdf-c472-3c35" name="New CategoryLink" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="85fa-0e93-acea-4466" name="Stratagem: Heroic Support" hidden="false" collective="false" import="true" targetId="cbd4-34fb-6ba6-9593" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d0bd-857a-e234-24f5" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
-  <infoLinks>
-    <infoLink id="57e4-6761-7bbf-35e9" name="Armour of Contempt" hidden="false" targetId="ab12-fdad-19bf-29d7" type="rule"/>
-  </infoLinks>
   <sharedSelectionEntries>
     <selectionEntry id="6479-f02e-34a1-8905" name="Student of History" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
